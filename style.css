@@ -2,15 +2,12 @@ img {
   width: 100%;
 }
 
-    /*
 h1 {
   text-align: center;
-text  height: 100px;
+  text height: 100px;
   width: 100%;
   background: chocolate;
 }
-*/
-
 
 .container {
   display: grid;
@@ -23,33 +20,25 @@ text  height: 100px;
   border-style: none;
 }
 
-
-h2{
+h2 {
   text-align: center;
-  text  height: 100px;
-    width: 100%;
-    background: chocolate;
-  margin-botom:20px ;
-  }
+  text height: 10px;
+  width: 100%;
+  background: chocolate;
+}
 
-
-
-.container1{
+.container1 {
   display: grid;
-  grid-template-columns:minmax(100px,350px) 1fr minmax(100px,350px) ;
-  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
   border-style: none;
   grid-template-areas: "boxr boxr boxr "
 }
-.boxr{
-  grid-column:1/4;
+
+.boxr {
+  grid-column: 1/4;
   justify-items: left;
- /* grid-column-start:1 ;
+  /* grid-column-start:1 ;
   grid-column-end: 4;*/
 }
-.box1{
-grid-template-columns: minmax(150px,350px);
-
-}
- .cox
